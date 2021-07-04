@@ -9,3 +9,10 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-links-item {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
