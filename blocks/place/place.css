@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-column-gap: 40px;
-
+  row-gap: 48px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -16,12 +16,13 @@
   .place {
     grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;
+    row-gap: 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
+    grid-column-gap: 32px;
     grid-template-columns: 1fr;
-
   }
 }

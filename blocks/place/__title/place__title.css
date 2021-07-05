@@ -1,5 +1,8 @@
 .place__title {
-  margin: 0 0 48px 0;
+  margin: 0;
+  grid-column: 1;
+  grid-row:1;
+  align-self: end;
   font-size: 72px;
   line-height: 76px;
   font-style: normal;
@@ -8,7 +11,6 @@
 
 @media screen and (max-width: 1023px) {
   .place__title {
-    margin-left: 0;
     font-size: 42px;
     line-height: 46px;
   }
@@ -16,8 +18,8 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    margin: 0 16px 32px 16px;
     font-size: 32px;
     line-height: 35px;
+    margin: 0 16px;
   }
 }

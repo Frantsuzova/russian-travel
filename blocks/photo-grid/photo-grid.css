@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 1279px) {
   .photo-grid {
-
     gap: 14px;
   }
 }
@@ -14,14 +13,12 @@
 @media screen and (max-width: 1023px) {
   .photo-grid {
     max-width: 768px; /*720+padding*/
-
     gap: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid {
-
     gap: 12px;
   }
 }

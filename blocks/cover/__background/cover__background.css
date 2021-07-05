@@ -1,13 +1,11 @@
 .cover__background {
   width: min(1184px, 100%);
   min-height: min(740px, calc(100vw * 5 / 8));
-
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   background-image: url('../../../images/cover-background.jpg');
   background-position: center;
   background-size: cover;
